@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+ 
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="630dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="132dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="554dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="127dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="476dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="334dp"
+        android:layout_marginBottom="637dp"
+        android:text="Name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="326dp"
+        android:layout_marginBottom="567dp"
+        android:text="Roll"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="324dp"
+        android:layout_marginBottom="488dp"
+        android:text="Marks"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="352dp"
+        android:text="Insert"
+        android:onClick="in"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="252dp"
+        android:layout_marginTop="331dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="352dp"
+        android:text="Update"
+        android:onClick="up"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="250dp"
+        android:text="Display"
+        android:onClick="dis"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+package com.example.lab14;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Context;
+import android.database.Cursor;
+import android.database.sqlite.SQLiteDatabase;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+
+public class MainActivity extends AppCompatActivity {
+    EditText Name,Roll,Marks;
+    SQLiteDatabase db;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        Name=(EditText)findViewById(R.id.editTextTextPersonName);
+        Roll=(EditText)findViewById(R.id.editTextTextPersonName2);
+        Marks=(EditText)findViewById(R.id.editTextTextPersonName3);
+        db=openOrCreateDatabase("studentdb1", Context.MODE_PRIVATE,null);
+        db.execSQL("create table if not exists student17(name varchar,roll varchar,"+"marks varchar);");
+    }
+
+    public void in(View view) {
+        if(Name.getText().toString().trim().length()==0 ||
+             Roll.getText().toString().trim().length()==0 ||
+              Marks.getText().toString().trim().length()==0)
+        {
+            showmessage("Error","Please enter the values");
+            return;
+        }
+        db.execSQL("Insert into student17 values('"+Name.getText()+"','"+Roll.getText()+"','"+Marks.getText()+"');");
+        showmessage("Success","Data inserted");
+        cleartext();
+    }
+
+    public void up(View view) {
+        if(Roll.getText().toString().trim().length()==0)
+        {
+            showmessage("Error","Please enter Rollno");
+            return;
+        }
+        Cursor c=db.rawQuery("SELECT * FROM student17 WHERE roll='"+Roll.getText()+"'",null);
+        if(c.moveToFirst()){
+            db.execSQL("UPDATE student17 SET name='" +Name.getText()+"',marks='"+Marks.getText()+
+                    "'WHERE roll='"+Roll.getText()+"'");
+            showmessage("Success","Record Modified");
+        }
+        else {
+            showmessage("Error","Invalid Rollno");
+        }
+        cleartext();
+    }
+
+    public void dis(View view) {
+        Cursor c=db.rawQuery("Select * from student17",null);
+        if(c.getCount()==0)
+        {
+                showmessage("Error","No records found");
+                return;
+        }
+        StringBuffer buffer=new StringBuffer();
+        while(c.moveToNext())
+        {
+            buffer.append("Name:"+c.getString(0)+"\n");
+            buffer.append("Rollno:"+c.getString(1)+"\n");
+            buffer.append("Marks:"+c.getString(2)+"\n\n");
+        }
+        showmessage("Student details",buffer.toString());
+    }
+    private  void  showmessage(String title,String message)
+    {
+        AlertDialog.Builder builder=new AlertDialog.Builder(this);
+        builder.setCancelable(true);
+        builder.setTitle(title);
+        builder.setMessage(message);
+        builder.show();
+    }
+    private void cleartext()
+    {
+        Name.setText("");
+        Roll.setText("");
+        Marks.setText("");
+        Roll.requestFocus();
+    }
+}
+
